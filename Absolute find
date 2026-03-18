@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Absolute{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+            int num = sc.nextInt();
+            int value;
+            if(num<0){
+                value=num*(-1);
+                System.out.println(value);
+            }
+        }
+}
