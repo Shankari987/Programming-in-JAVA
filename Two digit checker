@@ -8,6 +8,5 @@ public class Twodigit {
       } else {
          System.out.println("Not a Two digit number");
       }
-
    }
 }
