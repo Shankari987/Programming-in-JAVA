@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Twodigit {
+   public static void main(String[] var0) {
+      Scanner sc= new Scanner(System.in);
+      int num = sc.nextInt();
+      if (num >= 10 && num <= 99) {
+         System.out.println("Two Digit Number");
+      } else {
+         System.out.println("Not a Two digit number");
+      }
+
+   }
+}
