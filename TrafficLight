@@ -1,0 +1,16 @@
+import java .util.Scanner;
+public class TrafficLight {
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        String s =sc.next();
+        if(s.equals("Red")){
+            System.out.println("Stop");
+        }
+        else if(s.equals("Yellow")){
+            System.out.println("Wait");
+}
+        else{
+            System.out.println("Go");
+        }
+    }
+}
