@@ -7,6 +7,7 @@ public class ATMwithdrawal {
         if(withdrawal%100==0 && withdrawal<=balance){
             System.out.println("Transaction Successful");
         }
+
         else{
             System.out.println("Transaction Failed");
         }
