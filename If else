@@ -6,7 +6,6 @@ public class TrafficLight {
         if(s.equals("Red")){
             System.out.println("Stop");
         }
-
         else if(s.equals("Yellow")){
             System.out.println("Wait");
 }
