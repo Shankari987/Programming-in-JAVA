@@ -17,6 +17,5 @@ public class Main{
             tax=income*30/100;
         }
         System.out.println("Tax = " + tax);
-     
 }
 }
