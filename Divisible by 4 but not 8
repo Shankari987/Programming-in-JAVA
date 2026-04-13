@@ -6,6 +6,7 @@ public class Number {
         if(number%4==0 && number %8!=0){
             System.out.println("True");
         }
+
         else{
             System.out.println("False");
         }
