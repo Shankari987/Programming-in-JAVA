@@ -1,0 +1,25 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int x=sc.nextInt();
+        armstrong(x) ;
+}
+    static void armstrong(int x){
+        
+        int temp=x;
+        int sum=0;
+        while(x>0){
+            int ld=x%10;
+            int cube=ld*ld*ld;
+            sum=sum+cube;
+            x=x/10;
+        }
+        if (temp==sum){
+            System.out.println("Armstrong");
+        }
+        else{
+            System.out.println("Not Armstrong");
+        }
+    }
+}
