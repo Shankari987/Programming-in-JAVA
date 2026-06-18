@@ -7,6 +7,7 @@ public class Secondlargest {
         int c = sc.nextInt();
         int largest;
         int second;
+        
         if(a>=b &&a>=c){
             if(b>=c){
                 second=b; 
