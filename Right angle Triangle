@@ -5,6 +5,7 @@ public class Main{
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
+
         if(a*a+b*b==c*c){
             System.out.println("Right Triangle");
         }
