@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int number = 1;
+        int totalCount = 0;
+        for (int i = 1; totalCount < n; i++) {
+        int groupCount = 0;
+            while (groupCount < i && totalCount < n) {
+                if (i % 2 != 0 && number % 2 != 0) {
+                    System.out.print(number + " ");
+                    groupCount++;
+                    totalCount++;
+            }
+
+                else if (i % 2 == 0 && number % 2 == 0) {
+                    System.out.print(number + " ");
+                    groupCount++;
+                    totalCount++;
+                }
+
+                number++;
+    }
+}
+    }
+}
