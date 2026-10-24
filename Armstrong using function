@@ -5,7 +5,6 @@ class Main {
         int x=sc.nextInt();
         armstrong(x) ;
 }
-
     static void armstrong(int x){
         
         int temp=x;
