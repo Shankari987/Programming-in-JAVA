@@ -9,6 +9,7 @@ public static void main(String[] args) {
         if(ch=='a'){
             a++;
         }
+
         else if(ch=='e'){
             e++;
         }
