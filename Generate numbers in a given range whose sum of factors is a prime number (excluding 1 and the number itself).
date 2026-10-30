@@ -11,6 +11,7 @@ public class Main{
                     sum=sum+j;
                 }
             }
+
             int count=0;
             for(int j=1;j<=sum;j++){
                 if(sum%j==0){
